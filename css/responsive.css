@@ -1,0 +1,531 @@
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .menu .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .menu .fa-bars{
+        color:#fff;
+    }  
+    .menu .navbar-light .navbar-nav .nav-link.active {
+        background: url(../images/border.png) left bottom no-repeat;  
+
+    }
+    .menu .navbar-light .navbar-nav .nav-link:hover {
+        background: url(../images/border.png) left bottom no-repeat;
+    }
+    .menu .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .banner{
+        padding:50px 0px;
+    }
+    .banner h2 {
+        font-size: 31px;
+        line-height: 41px;
+    } 
+    .banner p {
+        font-size: 12px;   
+        font-weight: 600;
+    }    
+    .banner .inner-button .btn-primary {
+        padding: 14px 12px;
+        font-size: 12px;
+    }    
+    .banner .inner-button .btn-info {
+        padding: 14px 12px;
+        font-size: 12px;
+    }       
+    .feature-section {
+        padding: 80px 0px;
+    }
+    .feature-section .title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }   
+    .inner-feature {
+        padding: 25px 35px;
+    }   
+    .about-long .title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }    
+    .about-long .title h5 {
+        font-size:20px;
+    } 
+    .title{
+        text-align: center;
+    } 
+    .about-long p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .about-short p {
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }   
+    .about-short h2 {
+        font-size:35px;
+        line-height: 45px;
+    }  
+    .testimonial-section .title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    } 
+    .testimonial-section .title {
+        margin-bottom:0px;
+    }     
+    .testimonial-section .owl-theme .item h4 {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom:45px
+    } 
+    .testimonial-section .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top:60px;
+    } 
+    .see-section h2 span {
+        font-weight: 600;
+    }       
+    .see-section h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }      
+    .see-section .inner-button .btn-info{
+        padding: 14px 12px;
+        font-size: 12px;
+    }  
+    .see-section .inner-button .btn-primary{
+        padding: 14px 12px;
+        font-size: 12px;
+    }  
+    .price-section .title h2{
+        font-size: 35px;
+        line-height: 45px;
+    }     
+    .contact-us .title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }      
+    .main-form .btn-primary{
+        padding: 14px 12px;
+        font-size: 12px;
+    }
+    .footer{
+        padding:20px;
+    }
+    .copyright{
+        margin-bottom: 0px;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+     
+  }
+    
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .menu .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .menu .fa-bars{
+        color:#fff;
+    }  
+    .menu .navbar-light .navbar-nav .nav-link.active {
+        background: url(../images/border.png) left bottom no-repeat;  
+
+    }
+    .menu .navbar-light .navbar-nav .nav-link:hover {
+        background: url(../images/border.png) left bottom no-repeat;
+    }
+    .menu .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+    .banner h5 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .banner{
+        padding:50px 0px;
+    }
+    .banner h2 {
+        font-size: 61px;
+        line-height: 71px;
+    } 
+    .banner p {
+        font-size: 20px;   
+        font-weight: 600;
+    }    
+    .banner .inner-button .btn-primary {
+        padding: 15px 40px;
+        margin-left: 125px;
+    }    
+    .banner .inner-button .btn-info {
+        padding: 15px 40px;
+    }       
+    .feature-section {
+        padding: 80px 0px;
+    }
+    .feature-section .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    } 
+    .feature-section .title h5 {
+        font-size: 2.25rem;
+        font-weight: 600;
+    }  
+    .inner-feature {
+        padding: 25px 35px;
+    }   
+    .inner-feature .icons {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        margin-bottom: 30px;
+    }
+    .inner-feature h4 {
+        font-size: 30px;
+    }
+    .inner-feature p {
+        font-size: 20px;
+    }
+    .about-long .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }    
+    .about-long .title h5 {
+        font-size:20px;
+    } 
+    .title{
+        text-align: center;
+    }
+    .icon-list li {
+        font-size: 22px;
+        line-height: 32px; 
+    }    
+    .about-long p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .about-long .title h5 {
+        font-size: 2.25rem;
+    }
+    .about-short p {
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }  
+    .about-short h2 {
+        font-size:45px;
+        line-height:55px;
+    } 
+    .about-short h5 {
+        font-size: 2.25rem;
+        font-weight: 600; 
+    } 
+    .testimonial-section .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .testimonial-section .title h5 {
+        font-size: 2.25rem;
+    } 
+    .testimonial-section .title {
+        margin-bottom:0px;
+    }     
+    .testimonial-section .owl-theme .item h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom:45px
+    } 
+    .testimonial-section .owl-theme .item h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }    
+    .testp{
+        font-size: 16px;
+    }    
+    .testimonial-section .owl-theme .item .round {
+        width: 100px;
+        height: 100px;
+        margin-left:175px;
+    }    
+    .testimonial-section .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top:60px;
+    } 
+    .see-section h2 span {
+        font-weight: 600;
+    }       
+    .see-section h2 {
+        font-size: 37px;
+        line-height: 47px;
+        margin-bottom: 20px;
+    }      
+    .see-section .inner-button .btn-info{
+        padding: 15px 40px;
+        font-size: 12px;
+    }  
+    .see-section .inner-button .btn-primary{
+        padding: 15px 40px;
+        font-size: 14px;
+    }  
+    .price-section .title h2{
+        font-size: 45px;
+        line-height: 55px;
+    } 
+    .price-section .title h5 {
+        font-size: 2rem;
+    }    
+    .contact-us .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }  
+    .contact-us .title h5{
+        font-size: 2rem;
+    } 
+    .contact-us .info p {
+        font-size: 18px;
+    }           
+    .main-form .btn-primary{
+        padding: 14px 12px;
+        font-size: 14px;
+    }
+    .footer{
+        padding:20px;
+    }
+    .copyright{
+        margin-bottom: 0px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/*
+  ##Ipad Pro
+ */
+@media (min-width:1024px) and (max-width:1366px) {
+    .menu .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .menu .fa-bars{
+        color:#fff;
+    }  
+    .menu .navbar-light .navbar-nav .nav-link.active {
+        background: url(../images/border.png) left bottom no-repeat;  
+
+    }
+    .menu .navbar-light .navbar-nav .nav-link:hover {
+        background: url(../images/border.png) left bottom no-repeat;
+    }
+    .menu .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+    .banner h5 {
+        font-size: 31px;
+        line-height: 41px;
+        margin-bottom: 25px;
+    }
+    .banner{
+        padding:50px 0px;
+    }
+    .banner h2 {
+        font-size: 43px;
+        line-height: 53px;
+    } 
+    .banner p {
+        font-size: 16px;  
+        font-weight: 600;
+    }    
+    .banner .inner-button .btn-primary {
+        padding: 15px 25px;
+        margin-left: 0px;
+    }    
+    .banner .inner-button .btn-info {
+        padding: 15px 25px;
+    }       
+    .feature-section {
+        padding: 80px 0px;
+    }
+    .feature-section .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    } 
+    .feature-section .title h5 {
+        font-size: 2.25rem;
+        font-weight: 600;
+    }  
+    .inner-feature {
+        padding: 25px 35px;
+    }   
+    .inner-feature .icons {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        margin-bottom: 30px;
+    }
+    .inner-feature h4 {
+        font-size: 30px;
+    }
+    .inner-feature p {
+        font-size: 20px;
+    }
+    .about-long .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }    
+    .about-long .title h5 {
+        font-size:20px;
+    } 
+    .title{
+        text-align: center;
+    }
+    .icon-list li {
+        font-size: 22px;
+        line-height: 32px; 
+    }    
+    .about-long p{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .about-long .title h5 {
+        font-size: 2.25rem;
+    }
+    .about-short p {
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: 16px;
+    }  
+    .about-short h2 {
+        font-size:45px;
+        line-height:55px;
+    } 
+    .about-short h5 {
+        font-size: 2rem;
+        font-weight: 600; 
+    } 
+    .testimonial-section .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .testimonial-section .title h5 {
+        font-size: 2.25rem;
+    } 
+    .testimonial-section .title {
+        margin-bottom:0px;
+    }     
+    .testimonial-section .owl-theme .item h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom:45px
+    } 
+    .testimonial-section .owl-theme .item h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }    
+    .testp{
+        font-size: 16px;
+    }    
+    .testimonial-section .owl-theme .item .round {
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+    }    
+    .testimonial-section .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top:60px;
+    } 
+    .see-section h2 span {
+        font-weight: 600;
+    }       
+    .see-section h2 {
+        font-size: 37px;
+        line-height: 47px;
+        margin-bottom: 20px;
+    }      
+    .see-section .inner-button .btn-info{
+        padding: 15px 17px;
+        font-size: 14px;
+    }  
+    .see-section .inner-button .btn-primary{
+        padding: 15px 17px;
+        font-size: 14px;
+    }  
+    .price-section .title h2{
+        font-size: 45px;
+        line-height: 55px;
+    } 
+    .price-section .title h5 {
+        font-size: 2rem;
+    }    
+    .contact-us .title h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }  
+    .contact-us .title h5{
+        font-size: 2rem;
+    } 
+    .contact-us .info p {
+        font-size: 18px;
+    }           
+    .main-form .btn-primary{
+        padding: 14px 12px;
+        font-size: 14px;
+    }
+    .footer{
+        padding:20px;
+    }
+    .copyright{
+        margin-bottom: 0px;
+    }
+}
+
